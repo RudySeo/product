@@ -1,6 +1,6 @@
-package com.example.product.ports.output
+package com.example.product.core.ports.output
 
-import com.example.product.domain.Product
+import com.example.product.core.domain.Product
 
 interface ProductRepository {
     fun findAll(): List<Product>
