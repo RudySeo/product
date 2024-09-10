@@ -1,6 +1,6 @@
-package com.example.product.ports.input
+package com.example.product.core.ports.input
 
-import com.example.product.domain.Product
+import com.example.product.core.domain.Product
 
 interface ProductService {
     fun getAllProducts(): List<Product>
